@@ -1,0 +1,53 @@
+body{
+    transition: all 0.3s;
+}
+.cont {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(4, 76, 208);
+    display: flex;
+}
+
+.ch {
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    background-color: #c80505;
+    box-shadow: rgb(0, 0, 0) 3px 3px 4px;
+}
+
+.ch1:hover {
+    transform: rotate(450deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch2:hover {
+    transform: rotate(-45deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch3:hover {
+    transform: rotatex(45deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch4:hover {
+    transform: rotatey(45deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch5:hover {
+    transform: rotatez(45deg);
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.ch6:hover {
+    transform: rotate(0.20turn);
+    background-color: #000000;
+    color: aliceblue;
+}
